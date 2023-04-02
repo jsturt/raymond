@@ -1,7 +1,7 @@
 # raymond
 Path-tracing experiment based off of a university project
 
-Setup to be built with `Meson`. 
+Setup to be built with [`Meson`](https://github.com/mesonbuild/meson). 
 
 Example scene file provided in the `scenefile` dir, copy it next to the executable to run or write your own.
 
