@@ -1,0 +1,90 @@
+# Preable, information about the specific file
+
+# MATERIALS - need to be defined before objects if you want them to be applied to said objects#
+
+MAT
+_matName grey
+_colour 0.18 0.18 0.18
+_roughness 0.66
+_emission 0.0
+_metalness 0.0
+
+MAT
+_matName lime
+_colour 0.75 1.0 0.0
+_roughness 0.66
+_emission 0.0
+_metalness 0.0
+
+MAT
+_matName white
+_colour 0.8 0.8 0.8
+_roughness 0.66
+_emission 0.0
+_metalness 0.0
+
+MAT
+_matName teal
+_colour 0.0 1.0 1.0
+_roughness 0.66
+_emission 0.0
+_metalness 0.0
+
+MAT
+_matname emissive
+_colour 1.0 1.0 1.0
+_roughness 1.0
+_emission 1.0
+_metalness 0.0
+
+# OBJECTS
+
+SPH
+_objName sphere1
+_position 0.0 5.0 15.0
+_radius 4.75
+_material grey
+
+SPH
+_objName sphere2
+_position 5.0 2.0 20.0
+_radius 4.75
+_material lime
+
+#SPH 
+#_objName sphLight1
+#_position 0.0 4.0 10.0
+#_radius 1.0
+#_material emissive
+
+SPH
+_objName sphLight2
+_position 5.0 15.0 15.0
+_radius 2.0
+_material emissive
+
+PLA
+_objName ground
+_position 0.0 -3.0 0.0
+_normal 0.0 -1.0 0.0
+_material white
+
+PLA
+_objName ground2
+_position 0.0 5.0 0.0
+_normal 0.0 1.0 0.0
+_material teal
+
+# LIGHTS
+
+#LHT
+#_lightName light1
+#_position 0.0 4.0 10.0
+#_intensity 0.5 
+#_colour 1.0 1.0 1.0
+#
+#LHT
+#_lightName light2
+#_position 4.0 4.0 4.0
+#_intensity 0.5 
+#_colour 1.0 1.0 1.0
